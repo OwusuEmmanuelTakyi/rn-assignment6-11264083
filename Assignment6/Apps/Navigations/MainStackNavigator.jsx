@@ -1,9 +1,8 @@
-// navigation/MainStackNavigator.js
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './screens/HomeScreen';
-import CartScreen from './screens/CartScreen';
+import HomeScreen from '../Screens/HomeScreen';
+import CartScreen from '../Screens/CartScreen';
 
 const Stack = createStackNavigator();
 
