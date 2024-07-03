@@ -64,7 +64,7 @@ const HomeScreen = ({ navigation }) => {
         keyExtractor={(item) => item.id}
         numColumns={2}
         renderItem={({ item }) => (
-            <View className='flex-l m-3'>
+            <View className='flex-l m-1'>
             <Image source={item.image}  
              className='w' />
              <View>
@@ -74,7 +74,7 @@ const HomeScreen = ({ navigation }) => {
                     <Text className=''>{item.description}</Text>
                 </View>
                 <View>
-                    <Text className=''> {item.price}</Text>
+                    <Text className='text-red-500'> {item.price}</Text>
                 </View>
            
           </View>
